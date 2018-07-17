@@ -33,7 +33,7 @@ class RH3_Section_Menu extends WP_Widget {
 		if ( $subpages ) {
 			// Start a list with the parent page on top
 			?>
-			<nav class=”section-menu”>
+			<nav class="section-menu">
 				<h3><a href="<?php echo get_permalink( $parent_id ); ?>"><?php echo get_the_title( $parent_id ); ?></a></h3>
 				<ul class="menu">
 					<?php wp_list_pages( $args );	?>
